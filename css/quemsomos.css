@@ -11,17 +11,21 @@ a:hover {
 
 #secao1 {
   background-color: #C4C4C4;
-  height: 100%;
+  height: auto;
+  padding: 0;
 }
 
-.secao-div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+#divisoria {
+  width: auto;
+  height: 250px;
+  background-image: url('../assets/divisao2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .sobre-nos {
   padding-top: 90px;
+  z-index: 1;
 }
 
 .titulo-nos {
@@ -71,8 +75,7 @@ a:hover {
 /***************** SECAO2 ******************/
 
 #deck-professores.card-deck {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin: 0 auto;
 }
 
 #deck-professores .card {
@@ -84,12 +87,28 @@ a:hover {
   border-radius: 0;
   border-width: 0;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #deck-professores .card:hover {
   transform: scale(1.02);
   transition: all .5s;
   box-shadow: 0 0 10px #C4C4C4;
+}
+
+@media screen and (max-width:575px) {
+  #deck-professores .card {
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  #deck-professores .card {
+    max-width: 450px;
+    min-width: 400px;
+  }
 }
 
 #deck-professores .titulo-card {

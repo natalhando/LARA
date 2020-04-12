@@ -1,13 +1,15 @@
 /*************** SECAO1 ***************/
 #secao1 {
   background-color: #C4C4C4;
-  height: 100%;
+  height: auto;
 }
 
-.secao-div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+#divisoria {
+  width: auto;
+  height: 250px;
+  background-image: url('../assets/divisao2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .sobre-lab {
@@ -59,6 +61,7 @@
 }
 
 /******************** SECAO2 **********************/
+
 .container-exps {
   padding-left: 10%;
   padding-right: 10%;
