@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/laboratorios.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -51,7 +52,7 @@
             <p class="desc-lab">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div class="col-sm-6">
-            <img class="img-lab" src="assets/imagem.jpg">
+            <img class="img-lab" data-aos="fade-left" src="assets/imagem.jpg">
           </div>
         </div>
       </div>
@@ -62,7 +63,7 @@
       <div class="container container-exps">
         <h2 class="tipo-exp">Remoto</h2>
 
-        <div class="card mb-3">
+        <div class="card mb-3" data-aos="fade-up">
           <h3 class="nome-exp">L1R2</h3>
           <img src="assets/exemplo.jpg" class="card-img-top img-experimento" alt="L1R2">
           <div class="card-body">
@@ -71,7 +72,7 @@
           </div> <!-- .card-body -->
         </div> <!-- .card -->
 
-        <div class="card mb-3">
+        <div class="card mb-3" data-aos="fade-up">
           <h3 class="nome-exp">Combi</h3>
           <img src="assets/exemplo.jpg" class="card-img-top img-experimento" alt="Combi">
           <div class="card-body">
@@ -80,7 +81,7 @@
           </div> <!-- .card-body -->
         </div> <!-- .card -->
 
-        <div class="card mb-3">
+        <div class="card mb-3" data-aos="fade-up">
           <h3 class="nome-exp">Casinha</h3>
           <img src="assets/exemplo.jpg" class="card-img-top img-experimento" alt="Casinha">
           <div class="card-body">
@@ -94,7 +95,7 @@
       <div class="container container-exps">
         <h2 class="tipo-exp">Virtual</h2>
 
-        <div class="card mb-3">
+        <div class="card mb-3" data-aos="fade-up">
           <h3 class="nome-exp">L1R2 Virtual</h3>
           <img src="assets/exemplo.jpg" class="card-img-top img-experimento" alt="L1R2 Virtual">
           <div class="card-body">
@@ -113,6 +114,10 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
