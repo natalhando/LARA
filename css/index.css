@@ -27,6 +27,11 @@
   display: none;
 }
 
+.card-exp {
+  background-color: transparent !important;
+  border-width: 0;
+}
+
 .titulo {
   margin-bottom: 30px;
   text-align: center;
