@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -59,13 +60,13 @@
             <div class="div-btn"><button type="button" class="btn btn-saiba-mais">Saiba mais</button></div>
           </div> <!-- .col -->
           <div class="col-12 col-sm-6 col-md-7">
-            <img class="img-exp img-exp-remoto" src="assets/imagem.jpg">
+            <img class="img-exp img-exp-remoto" data-aos="fade-left" src="assets/imagem.jpg">
           </div> <!-- .col -->
         </div> <!-- .row -->
 
         <div class="row experimento">
           <div class="col-12 col-sm-6 col-md-7">
-            <img class="img-exp img-exp-virtual" src="assets/imagem.jpg">
+            <img class="img-exp img-exp-virtual" data-aos="fade-right" src="assets/imagem.jpg">
           </div> <!-- .col -->
           <div class="col-12 col-sm-6 col-md-5 exp-virtual">
             <h3 class="titulo-exp">Virtuais</h3>
@@ -115,6 +116,10 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
