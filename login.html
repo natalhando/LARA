@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>LARA - Login</title>
 
+  	<link rel="stylesheet" type="text/css" href="css/util.css">
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="assets/favicon.png" rel="icon" type="image/jpeg">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -14,51 +16,47 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
-  
   <body>
-      
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="nav-link" href="index.html"><img class="nav-logo" src="assets/logo.png" alt="LARA" width="200px"></a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="laboratorios.html">Laboratórios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cursos.html">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quemsomos.html">Quem somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="publicacoes.html">Publicações</a>
-          </li>
-          <li class="btn-menu">
-            <a class="nav-link btn-menu" href="login.html">Login</a>
-          </li>
-        </ul>
-      </div> <!-- .navbag-collapse -->
-      <button class="btn btn-login" type="button"><a href="login.html">Login</a></button>
-    </nav>
-    
-    <section class="secao" id="secao1">
-
-    </section>
-
-    <div class="final">
-      <footer>
-        <img src="assets/logo.png" height="60" alt="LARA">
-      </footer>
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.png" alt="LARA" width="200px"></a>
     </div>
+    <div class="limiter">
+      <div class="container-login100">
+        <div class="wrap-login100">
+          <form class="login100-form validate-form">
+            <h3>Login</h3>
+            
+            <div class="wrap-input100 validate-input" data-validate = "Digite seu email">
+              <input class="input100" type="text" name="email">
+              <span class="focus-input100" data-placeholder="Email"></span>
+            </div>
 
-    <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+            <div class="wrap-input100 validate-input" data-validate="Digite sua senha">
+              <input class="input100" type="password" name="senha">
+              <span class="focus-input100" data-placeholder="Senha"></span>
+            </div>
 
+            <div class="container-login-btn">
+              <div class="wrap-login-btn">
+                <button class="login-btn">
+                  Entrar 
+                </button>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <span class="txt1">
+                Ainda não possui uma conta?
+              </span>
+
+              <a class="txt2" href="#">
+                Cadastre-se 
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+	<script src="js/main2.js"></script>
   </body>
 </html>

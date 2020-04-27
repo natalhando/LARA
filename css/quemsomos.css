@@ -10,7 +10,7 @@ a:hover {
 /*************** SECAO1 ***************/
 
 #secao1 {
-  background-color: #C4C4C4;
+  background-color: #4285F4;
   height: auto;
   padding: 0;
 }
@@ -23,6 +23,7 @@ a:hover {
 .sobre-nos {
   padding-top: 90px;
   z-index: 1;
+  color: white;
 }
 
 .titulo-nos {
@@ -81,12 +82,13 @@ a:hover {
   max-width: 300px;
   min-width: 250px;
   height: 500px;
-  background-color: #C4C4C4;
+  background-color: white;
   border-radius: 0;
   border-width: 0;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 10px #C4C4C4;
 }
 
 #deck-professores .card:hover {
@@ -168,11 +170,12 @@ a:hover {
 }
 
 .card-aluno {
-  background-color: #E9E4E4;
+  background-color: white;
   border-radius: 0;
   border-width: 0;
   max-width: 500px;
   min-width: 300px;
+  box-shadow: 0 0 10px #C4C4C4;
 }
 
 .aluno-lattes {
@@ -189,9 +192,8 @@ a:hover {
   position: absolute;
   right:0;
   top:50%;
-  margin-left:-30px;
-  margin-top:-60px;
-  background-color:#C4C4C4;
+  margin-top:-65px;
+  margin-right:20px;
   border-radius: 50%;
 }
 

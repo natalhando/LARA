@@ -1,6 +1,6 @@
 /*************** SECAO1 ***************/
 #secao1 {
-  background-color: #C4C4C4;
+  background-color: #34a853;
   height: auto;
 }
 
@@ -16,15 +16,17 @@
 .titulo-lab {
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }
 
 .desc-lab {
   padding-top: 20px;
   font-size: 20px;
+  color: white;
 }
 
 .img-lab {
-  height: 15em;
+  height: 19em;
   padding-left: 50px;
 }
 
@@ -86,7 +88,7 @@
 }
 
 .btn-laboratorio {
-  background-color: #505050;
+  background-color: #34A853;
   border-radius: 70px;
   width: 200px;
   color: #FFFFFF;
@@ -94,7 +96,7 @@
 }
 
 .btn-laboratorio:hover {
-  background-color: #303030;
+  background-color: #25803E;
   color: #FFFFFF;
 }
 
