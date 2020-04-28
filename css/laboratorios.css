@@ -87,6 +87,10 @@
   height: auto;
 }
 
+.btn-desativado {
+  background-color: #34A853 !important;
+}
+
 .btn-laboratorio {
   background-color: #34A853;
   border-radius: 70px;
