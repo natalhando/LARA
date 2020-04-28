@@ -164,5 +164,65 @@
 
 /************** SECAO3 ********************/
 #secao3 {
-  height: 1500px;
+  background-color: white;
+  height: auto;
 }
+
+.titulo2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sobre-colaboracao{
+  padding-top: 90px;
+}
+
+.desc-colaboracao{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.img-lara {
+  height: 29em;
+  padding-left: 50px;
+}
+
+/************** SECAO4 ********************/
+
+#secao4 {
+  background-color: #4285F4;
+  height: auto;
+}
+
+.sobre-multilinguagem{
+  padding-top: 90px;
+}
+
+.desc-multilinguagem{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.img-lara {
+  height: 29em;
+  padding-left: 50px;
+}
+
+/************** SECAO5 ********************/
+
+#secao5 {
+  background-color: white;
+  height: auto;
+}
+
+.sobre-contato{
+  padding-top: 90px;
+}
+
+.desc-contato{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
