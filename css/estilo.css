@@ -52,15 +52,21 @@ p {
   display: none;
 }
 
-@media screen and (min-width:300px) and (max-width:991px) {
+
+
+@media screen and (min-width:300px) and (max-width:776px) {
   .nav-item {
-      background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .nav-link{
+    text-align: center;
   }
 
   .navbar-nav {
-      width: 100%;
-      display: block;
-      text-align: center;
+    width: 100%;
+    display: block;
+    text-align: center;
   }
 
   .btn-login {

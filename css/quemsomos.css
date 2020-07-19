@@ -37,8 +37,8 @@ a:hover {
 }
 
 .img-nos {
-  height: 15em;
-  padding-left: 50px;
+  height: 19em;
+  margin-left: 150px;
   z-index: 1;
 }
 
@@ -69,6 +69,11 @@ a:hover {
     float: right;
     padding-left: 0;
   }
+
+  #secao2{
+    margin-top: 70px;
+  }
+
 }
 
 /***************** SECAO2 ******************/

@@ -57,6 +57,14 @@
     float: right;
     padding-left: 0;
   }
+
+  #secao2{
+    margin-top: 70px;
+  }
+
+  .tipo-exp{
+    margin-top: 50px;
+  }
 }
 
 /******************** SECAO2 **********************/
